@@ -36,7 +36,7 @@ function toogleColor() {
 // function to fetch news list
 async function fetchNews(searchUrl) {
   const res = await fetch(
-    `https://newsapi.org/v2/${searchUrl}&apiKey=725e179c5acb4baeb253f3b58519fce9`
+    `https://newsapi.org/v2/${searchUrl}&apiKey=9044f55e4b9e4ad39054d37f77e6457a`
   );
   const data = await res.json();
 
